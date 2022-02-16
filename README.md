@@ -18,7 +18,7 @@ $ npx json-server db.json # run the local api
 ### Standard Criteria
 We should be able to:
 
-- Show all existing pokemon when the page loads
-- Add a new pokemon
-- Allow users to delete a pokemon
-- Allow users to like a pokemon
+- Show all existing pokemon when the page loads (GET) -- DONE
+- Add a new pokemon (POST) -- DONE
+- Allow users to delete a pokemon (DELETE) -- DONE
+- Allow users to like a pokemon (PATCH) 
